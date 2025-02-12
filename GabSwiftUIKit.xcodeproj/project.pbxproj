@@ -10,6 +10,7 @@
 		EF52132F2D5C65C700AE30E6 /* GabSwiftUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5213252D5C65C700AE30E6 /* GabSwiftUIKit.framework */; };
 		EF5213482D5C694900AE30E6 /* GabSwiftUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5213452D5C694900AE30E6 /* GabSwiftUIKit.swift */; };
 		EF52138A2D5C698E00AE30E6 /* GabSwiftUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5213872D5C698E00AE30E6 /* GabSwiftUIKitTests.swift */; };
+		EF5213CF2D5C6E5800AE30E6 /* GabSwiftUIKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = EF5213CE2D5C6E5800AE30E6 /* GabSwiftUIKit.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		EF52132E2D5C65C700AE30E6 /* GabSwiftUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabSwiftUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5213452D5C694900AE30E6 /* GabSwiftUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabSwiftUIKit.swift; sourceTree = "<group>"; };
 		EF5213872D5C698E00AE30E6 /* GabSwiftUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabSwiftUIKitTests.swift; sourceTree = "<group>"; };
+		EF5213CE2D5C6E5800AE30E6 /* GabSwiftUIKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GabSwiftUIKit.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		EF5212642D5C64F700AE30E6 = {
 			isa = PBXGroup;
 			children = (
+				EF5213CE2D5C6E5800AE30E6 /* GabSwiftUIKit.docc */,
 				EF5213472D5C694900AE30E6 /* Sources */,
 				EF5213892D5C698E00AE30E6 /* Tests */,
 				EF52126E2D5C64F700AE30E6 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5213CF2D5C6E5800AE30E6 /* GabSwiftUIKit.docc in Sources */,
 				EF5213482D5C694900AE30E6 /* GabSwiftUIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
