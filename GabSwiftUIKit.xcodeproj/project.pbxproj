@@ -31,6 +31,29 @@
 		EF5213CE2D5C6E5800AE30E6 /* GabSwiftUIKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GabSwiftUIKit.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF1A1D422D5C7398001DB013 /* Protocol */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EF2651402D5D83100049061F /* ViewRepresentable */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewRepresentable;
+			sourceTree = "<group>";
+		};
+		EF2651432D5D83CB0049061F /* CustomViewModifier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomViewModifier;
+			sourceTree = "<group>";
+		};
+		EF2651462D5D84A80049061F /* ViewExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		EF5213222D5C65C700AE30E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -80,6 +103,10 @@
 		EF5213472D5C694900AE30E6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EF2651462D5D84A80049061F /* ViewExtension */,
+				EF2651432D5D83CB0049061F /* CustomViewModifier */,
+				EF2651402D5D83100049061F /* ViewRepresentable */,
+				EF1A1D422D5C7398001DB013 /* Protocol */,
 				EF5213462D5C694900AE30E6 /* GabSwiftUIKit */,
 			);
 			path = Sources;
@@ -126,6 +153,12 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF1A1D422D5C7398001DB013 /* Protocol */,
+				EF2651402D5D83100049061F /* ViewRepresentable */,
+				EF2651432D5D83CB0049061F /* CustomViewModifier */,
+				EF2651462D5D84A80049061F /* ViewExtension */,
 			);
 			name = GabSwiftUIKit;
 			packageProductDependencies = (
