@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GabSwiftUIKit
 
 struct ContentView: View {
     var body: some View {
@@ -14,6 +15,17 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.blue)
             Text("Hello, world!")
+//                .config(type: UILabel()) { label in
+//                    label.textColor = .red
+//                }
+            
+            ScrollView {
+               Text("dd")
+                    .modifier(GabViewModifier())
+            }
+//            .config(type: UIScrollView()) { scrollView in
+//                
+//            }
         }
         .padding()
     }

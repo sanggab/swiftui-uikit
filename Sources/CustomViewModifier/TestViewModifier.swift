@@ -11,9 +11,9 @@ import SwiftUI
 struct TestViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .background (
-                GabSwiftUIKitViewRepresentable<UILabel>()
-            )
+            .config(type: UILabel()) { label in
+                
+            }
     }
 }
 

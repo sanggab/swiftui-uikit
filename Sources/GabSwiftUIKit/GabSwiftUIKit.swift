@@ -10,7 +10,9 @@ import SwiftUI
 struct GabSwiftUIKit: View {
     var body: some View {
         Text("hi")
-            .modifier(TestViewModifier())
+            .config(type: UILabel()) { label in
+                label.textColor = .red
+            }
     }
 }
 

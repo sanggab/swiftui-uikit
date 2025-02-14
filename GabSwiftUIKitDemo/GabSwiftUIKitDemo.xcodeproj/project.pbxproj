@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFF65B3E2D5EC17E008FB114 /* GabSwiftUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF65B3D2D5EC17E008FB114 /* GabSwiftUIKit.framework */; };
+		EFF65B3F2D5EC17E008FB114 /* GabSwiftUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFF65B3D2D5EC17E008FB114 /* GabSwiftUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF5212E62D5C655100AE30E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +28,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EFF65B402D5EC17F008FB114 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EFF65B3F2D5EC17E008FB114 /* GabSwiftUIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EF5212D52D5C654F00AE30E6 /* GabSwiftUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GabSwiftUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5212E52D5C655100AE30E6 /* GabSwiftUIKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabSwiftUIKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5212EF2D5C655100AE30E6 /* GabSwiftUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabSwiftUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF65B3D2D5EC17E008FB114 /* GabSwiftUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GabSwiftUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF65B3E2D5EC17E008FB114 /* GabSwiftUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,7 @@
 				EF5212D72D5C654F00AE30E6 /* GabSwiftUIKitDemo */,
 				EF5212E82D5C655100AE30E6 /* GabSwiftUIKitDemoTests */,
 				EF5212F22D5C655100AE30E6 /* GabSwiftUIKitDemoUITests */,
+				EFF65B3C2D5EC17E008FB114 /* Frameworks */,
 				EF5212D62D5C654F00AE30E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +114,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EFF65B3C2D5EC17E008FB114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF65B3D2D5EC17E008FB114 /* GabSwiftUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +132,7 @@
 				EF5212D12D5C654F00AE30E6 /* Sources */,
 				EF5212D22D5C654F00AE30E6 /* Frameworks */,
 				EF5212D32D5C654F00AE30E6 /* Resources */,
+				EFF65B402D5EC17F008FB114 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
